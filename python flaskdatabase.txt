@@ -1,0 +1,68 @@
+Flask_database[app.py] 
+from flask import Flask,request,redirect,url_for,render_template #flask - package, Flask -module/class
+from flask_mysqldb import MySQL
+
+app =Flask(__name__)    #app is the object , __name__ variable/argument
+
+#configuaration of database
+app.config['MYSQL_HOST'] = 'localhost'
+#app.config['MYSQL_PORT'] = 3307
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = ''
+app.config['MYSQL_DB'] = 'flaskDB'
+
+mysql = MySQL(app)
+
+
+@app.route('/')
+def loginform():
+    return render_template('login.html')
+
+@app.route('/login', methods=['POST','GET'])
+def home():
+    if request.method =='POST':
+        username =request.form['uname']
+        userplace =request.form['uplace'] #username = $_POST['uname]-  php 
+        #creating a connection
+        cur = mysql.connection.cursor()
+        #cur.execute('''create database flaskDB''')
+        #cur.execute('''create table logindetails(name varchar(50), place varchar(50));''')
+        cur.execute('''insert into logindetails(name,place) values(%s,%s);''',(username,userplace))
+        #saving the actions performed 
+        mysql.connection.commit()
+        cur.close() #close the connection
+        return 'Successfully inserted data'
+    #else:
+        #username =request.args.get['uname']
+        #userplace =request.args.get['uplace']
+        #return redirect(url_for('showtime', name=username, place=userplace))
+   
+
+#@app.route("/") #It will help you to route map whatever you are typing in the browser(the url) to a python function
+#def display(): #view function
+#    return "First Flask application"
+
+
+if __name__ =='__main__':
+    app.run(debug = True, host='localhost', port=3700)
+
+
+[login.html]
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+    </head>
+    <body>
+        <form action="http://localhost:5000/login" method="post">
+            <label>User Name:</label>
+            <input type="text" name= "uname">
+            <br>
+            <label>NSTI Place:</label>
+            <input type="text" name= "uplace">
+            <br>
+            <input type="submit" value="Send">
+        </form>
+    </body>
+</html>

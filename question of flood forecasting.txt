@@ -1,0 +1,101 @@
+
+                                                   QUESTION
+
+1.What is the average flood probability across different regions?
+"Average flood probability across different regions" ka matlab hai ki alag-alag ilaakon mein baadh aane ki sambhavana ko dekha jaaye aur phir un saari sambhavanao ka ek aausatan nikal kar bataaya jaaye.
+
+Iska matlab ye ho sakta hai ki agar humein ye pata karna ho ki desh ya duniya ke kitne hisson mein baadh aane ka kitna chance hai, to hum pehle har region ki baadh ki probability nikalenge, aur phir un sabka average nikaalenge, jisse humein overall ek idea mil sake ki kitni aasaar hai baadh aane ki.
+
+
+2.What are the most common values for factors like "Monsoon Intensity," "Deforestation," and "Urbanization"? 
+
+"Most common values for factors like 'Monsoon Intensity,' 'Deforestation,' and 'Urbanization'" ka matlab hai in factors ke liye jo aam taur par dekhe jaane wale maapdand ya sankhya hoti hai, unhe samajhna.
+
+Monsoon Intensity: Yeh monsoon ke dauran baarish ki taqat ya bhaari baarish ke maap ko dikhata hai. "Most common values" se matlab hai kitni baar aur kitni bhaari baarish aam taur par dekhi jaati hai.
+
+Deforestation: Yeh ek ilaake mein kitne ped aur jungle kaat diye gaye hain, usse sambandhit hai. "Most common values" matlab hai aam taur par kitne pratishat jungle kaate jaate hain ya deforestation ka rate kya hai.
+
+Urbanization: Yeh shehron ka vikas ya gramin ilaakon ka shehri ilaakon mein badalne ko dikhata hai. "Most common values" matlab hai aam taur par kitne pratishat log shehri ilaakon mein rehte hain ya urbanization ka rate kya hai.
+
+Iska yeh matlab hai ki in factors ke liye jo aam ya sabse zyada dekhe jaane wale values hote hain, unhe samajhna. Yeh zaroori hai kyunki in values se hum samajh sakte hain ki yeh factors kaise alag-alag ilaakon mein asar daalte hain.
+
+
+"Is there a strong correlation between 'Monsoon Intensity' and 'Flood Probability'?" ka matlab hai ki kya monsoon ki taqat aur baadh aane ki sambhavana ke beech mein ek mazboot rista ya sambandh hai.
+
+3."Is there a strong correlation between 'Monsoon Intensity' and 'Flood Probability'?"
+ ka matlab hai ki kya monsoon ki taqat aur baadh aane ki sambhavana ke beech mein ek mazboot rista ya sambandh hai.
+
+Agar strong correlation hota hai, to iska matlab hai ki jaise-jaise monsoon ki intensity badhti hai, waise-waise baadh aane ki sambhavana bhi badh jaati hai (positive correlation), ya phir kam ho jaati hai (negative correlation).
+
+Yeh correlation ko nikalne ke liye statistical methods use kiye jaate hain, jaise Pearson correlation coefficient, jo yeh batata hai ki do variables ke beech ka sambandh kitna mazboot hai aur kis direction mein hai.
+
+Positive Correlation (Mazboot sambandh): Agar monsoon intensity badhne par flood probability bhi badh jaati hai, to yeh positive correlation kehlaata hai.
+Negative Correlation (Negative sambandh): Agar monsoon intensity badhne par flood probability kam ho jaati hai, to yeh negative correlation kehlaata hai.
+No Correlation (Koi sambandh nahi): Agar monsoon intensity aur flood probability ke beech koi sambandh nahi hai, to correlation weak ya zero hoga.
+Simple shabdon mein, is sawal ka matlab hai ki kya monsoon ki intensity aur baadh aane ki sambhavana ke beech koi mazboot sambandh hai, jisse hum predict kar sakte hain ki ek factor dusre ko kaise asar karega.
+
+4.How do different factors like "Urbanization" and "Deforestation" impact "Flood Probability"?
+Urbanization" aur "Deforestation" jaise factors "Flood Probability" ko kaise prabhavit karte hain, iska matlab hai ki yeh samajhna ki shehron ka vikas (urbanization) aur pedon ka katna (deforestation) kis tarah se baadh aane ki sambhavana ko badhate hain.
+
+Urbanization (Shehri Vikas)
+Badhte Hue Pakke Satah: Jab shehr badhte hain, to zameen par concrete, road, aur buildings ban jaate hain. Yeh pakke satah paani ko zameen mein samane nahi dete, jisse zyada paani surface par bahta hai aur baadh ki sambhavana badh jaati hai.
+
+Prakritik Nalaon ki Badalti Huyi Vyavastha: Shehron mein vaakya prakritik nala aur nadiyon ko badal kar artificial drainage system banaya jaata hai. Agar yeh system achhi tarah se design nahi kiya gaya, to yeh tez baarish ko sambhal nahi paata, jisse shehr mein jal bharaav (urban flooding) ho sakta hai.
+
+Floodplain par Nirman: Urbanization ke wajah se prakritik floodplains, jo adhik paani ko samane aur rakhne mein madad karte hain, un par nirman ho jata hai. Isse prakritik roop se baadh ko rokne ki kshamata kam ho jaati hai.
+
+Deforestation (Vanon ki Katai)
+Pedon ka Khatma: Ped aur paudhe zameen mein paani ko absorb karte hain aur surface runoff ko kam karte hain. Jab ped kat diye jaate hain, to zyada paani zameen par bahta hai, jisse baadh ki sambhavana badh jaati hai.
+
+Mittiko ka Khatma (Soil Erosion): Ped mitti ko jod kar rakhte hain. Jab ped kat jaate hain, to mitti ka erode hona shuru ho jaata hai, jo nadiyon aur nalaon ko bhar deta hai. Isse nadiyan aur nala apna paani le jaane ki kshamata kho dete hain, jisse baadh aane ka khatra badh jaata hai.
+
+Jal Chakra ka Badlav: Van jal chakra mein mahatvapurn bhoomika nibhate hain, jismein paani vayu mandal mein evaporate hota hai. Vanon ki katai se yeh jal chakra badal jaata hai, jisse baarish ke pattern mein badlav ho sakta hai aur zyada extremes weather events aa sakte hain, jo baadh ka khatra badhate hain.
+
+Combined Impact (Sanyukt Prabhav)
+Urbanization aur deforestation agar saath-saath hote hain, to inka mil-jul kar asar aur bhi zyada badh jaata hai:
+
+Zyada Surface Runoff: Urban areas mein pakke satah aur deforested areas mein kam ped hone ki wajah se zyada surface runoff hota hai, jo drainage systems aur prakritik jalashayon ko overload kar deta hai.
+
+Prakritik Rokho ka Khatma: Urbanization aur deforestation dono prakritik rookho ko kam kar dete hain, jisse tez baarish ke dauran baadh aane ki sambhavana badh jaati hai.
+
+In simple terms, "Urbanization" aur "Deforestation" dono hi factors baadh aane ki sambhavana ko badhate hain, kyunki yeh prakritik taur par paani ko sambhalne aur rokne ki kshamata ko kam kar dete hain.
+
+
+
+
+
+
+5.What is the impact of "Climate Change" on "Flood Probability" compared to "Urbanization"?
+Climate Change" aur "Urbanization" ka "Flood Probability" par kya asar hai, iska matlab hai ki aap ye samajhna chahte hain ki in dono factors ka baadh aane ki sambhavana (flood probability) par kya prabhav hai aur inka asar kis tarah se compare kiya ja sakta hai.
+
+6.Can we predict "Flood Probability" based on the combination of factors like "Monsoon Intensity," "Siltation," and "Drainage Systems"?
+
+
+7.Which factors are the most significant predictors of flood probability?
+
+From statsmodels Summary:
+
+Coefficients: Show the strength and direction of the relationship.
+P-values: Indicate whether each predictor is statistically significant.
+
+8.Does increased "Deforestation" lead to higher flood probability?
+
+9.How does improving "Dams Quality" affect flood probability over time?
+
+10.Are there any missing values in the dataset that need to be handled before analysis?
+
+11.How should the dataset be preprocessed (e.g., normalization, scaling) for better analysis?
+
+12.Are there any redundant features that could be removed to simplify the model?
+
+
+
+
+
+
+
+
+
+
+
+

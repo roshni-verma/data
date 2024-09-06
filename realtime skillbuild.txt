@@ -1,0 +1,92 @@
+how to install mongoosh to your application?
+npm install mongodb
+
+mongoose is similiar to an ......mongodb?
+Object Data Modeling (ODM) 
+
+
+In angular, you can hide/remove HTML element using?
+*ngIf
+
+HOW to create the component in the angular application?
+ng generate component my-component
+
+Below construct provide modular structure to the angular application?
+ngmodule
+
+which router function should be called in to feed route configration for lazy routing approach?
+route for child
+
+The .....the directive substitutes the normal href property and makes it easier to work with route links in angular?
+routelink
+
+In angular ....the directive allows us to  iterate through a colllection?
+ngfor
+
+we can implement two-way data binding using?
+[(ngmodel)]
+
+command to check existence of collection is.....?
+show collections
+
+RxJS can be used for?
+browser server side both
+
+JWT stand for?
+JWT stands for JSON Web Token.
+
+how to add JWT to in your application?
+npm add-save jsonWebToken
+
+which of the command is used to build and serves your app,rebuilding on file changes?
+ng serve
+
+Angular square-bracket syntax[()] which signify a ....?
+property binding
+
+which of the method is responsibal for listening for incoming messages?
+socketon()
+how to create an interface in the angular application?
+ng install i interfaceName
+
+
+The router is part of angular code mode such as @angular/core?
+true
+
+the router is part of which of the following module?
+@angular/router
+
+
+you can define 404 route using below wide card route path?
+**
+
+in angular application there can be at most one can be used for routing?
+true
+
+which decorator is used for declaring the class as a service?
+@Injectable()
+
+....used to build projects for a development environment which minimizes development efforts in terms of performance?
+ng init
+
+...allows you emit custom events on the server and client?
+socketon
+
+....has a command to create your own component.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

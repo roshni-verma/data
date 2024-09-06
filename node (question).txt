@@ -1,0 +1,7 @@
+[3:19 PM] Arpita Roy
+Create a simple Node.js application that calculates the area and perimeter of a rectangle. The application should have separate modules for calculating the area and perimeter.
+[3:19 PM] Arpita Roy
+Create a Node.js application that reads a JSON file containing information about employees and calculates the total salary expense for the company.
+
+
+Create a simple Node.js script that reads a text file named input.txt, reverses its contents, and writes the reversed content to a new file named output.txt
