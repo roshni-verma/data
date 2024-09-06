@@ -1,0 +1,27 @@
+.parent{
+    border:15px s[11:48 am,olid brown;
+    border-style:single;
+    width:900px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.b1{
+    width: 800px;
+    height:150px;
+    display: flex;
+    background-color: aquamarine;
+}
+.a3{
+    width: 500px;
+    height: 150px;
+    background-color: aqua;
+    display: flex;
+}
+.c2{
+    width: 500px;
+    height: 150px;
+    background-color: blanchedalmond;
+    border-color: blueviolet;
+
+}

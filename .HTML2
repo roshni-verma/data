@@ -1,0 +1,19 @@
+<!Doctype html> <!--version of html 5-->
+<html> <!--starting-->
+<title>
+core module 1
+</title>
+<body>
+<h1>HTML</H1>
+<H2>CSS</H2>
+<H3>JAVASCRIPT</H3>
+<H4>BOOTSTRAP</H4>
+<H5>angular</H5>
+<H6>REACTJS</H6>
+<HR> <!--HORIZONTAL LINE>
+<P> THE <B><I><U> HYPERTEXT MARKUP LANGUAGE</U></I></B> OR HTML IS THE STANDARD MARKUP LANGUAGE FOR
+DOCUMENTS DESIGNED TO BE DISPLAYED IN A WEB BROWSER. <BR>IT CAN BE ASSISTED BY TECHNOLOGIES SUCH AS CASCADING STYLE SHEETS (CSS) AND SCRIPTING LANGUAGE SUCH AS JAVASCRIPT. </P>
+<a href="https://www.skillsbuilder.org/>ADIT PORTAL</a>
+<img scr=" https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fhtml&psig=AOvVaw0IBBFxsJYQXtzIOjCplprs&ust=1671511093532000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCIC1u53uhPwCFQAAAAAdAAAAABAD.PNG"WIDTH="150PX"HEIGHT="200PX"/>
+</BODY>
+</HTML><!--CLOSING-->
