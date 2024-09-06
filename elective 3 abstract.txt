@@ -1,0 +1,36 @@
+The "ONLINE RESUME BUILDER" project is a web-based application
+ designed for organizing information, such as educational, 
+personal, and professional aspects of individuals for both new and seasoned users. 
+They can easily enter their information 
+into the fields, and a resume will be generated for them.
+Resume Builder can display the resume structure in a user-friendlyformat, 
+so that you can choose which sections of the resume to publish.You can also modify 
+the order of the Published Sections – BiographicalData, Objective, Employment History
+, Education History, Personal, SkillAreas, Publications, Summary and Certifications.
+
+
+
+
+
+[QUALITY QUESTERS]
+
+
+var MongoClient = require('mongodb').MongoClient;
+var url = "mongodb://localhost:27017//Mongodatabase";
+
+MongoClient.connect(url,function(err,db){
+    if(err) throw err;
+    console.log("Database created successfully");
+    db.close();
+});
+//console.log("database created successfully");
+//db.close();
+
+//insert data into the collection 
+//var products = {"pname":"laptop","pcategory":"Electronics","pquantity":"150","pprice":"35000"};
+//db.collection("item").insertone(products,function(err,res){
+  //  if(err) throw err;
+    //console.log("one data inserted");
+    //db.close();
+//});
+//console.log("connection started");

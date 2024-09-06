@@ -1,0 +1,66 @@
+Flask_app
+
+[app.py]
+
+from flask import Flask,request,redirect,url_for #flask - package, Flask -module/class
+
+app =Flask(__name__)    #app is the object , __name__ variable/argument
+
+@app.route("/") #It will help you to route map whatever you are typing in the browser(the url) to a python function
+def display(): #view function
+    return "First Flask application"
+
+@app.route("/nsti")
+def show():
+    return "new page named NSTI"
+
+
+@app.route("/nsti/<value>")
+def show1(value):
+    return "new page named %s " %value
+
+
+@app.route('/python/<name>/<place>')
+def showtime(name,place):
+    return 'Hooray !! %s executed the code successfully from the place %s' %(name,place)
+
+
+@app.route("/login", methods=['POST','GET'])
+def loginform():
+    if request.method =='POST':
+        username =request.form['uname']
+        userplace =request.form['uplace']
+        return redirect(url_for('showtime', name=username, place=userplace ))
+    else:
+        username =request.args.get['uname']
+        userplace =request.form['uplace']
+        return redirect(url_for('showtime', name=username, place=userplace))
+
+
+if __name__ =='__main__':
+    app.run(debug = True)
+
+
+
+
+My_templates
+[login.html]
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+    </head>
+    <body>
+        <form action="http://localhost:5000/login" method="post">
+            <label>User Name:</label>
+            <input type="text" name= "uname">
+            <br>
+            <label>NSTI Place:</label>
+            <input type="text" name= "uplace">
+            <br>
+            <input type="submit" value="Send">
+        </form>
+    </body>
+</html>

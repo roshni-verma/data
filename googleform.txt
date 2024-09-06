@@ -1,0 +1,37 @@
+
+
+Interview Prep
+Required
+Your Name
+ROSHNI VERMA
+NSTI 
+
+Kolkata 
+
+Calicut 
+
+Howrah 
+
+Vidyanagar 
+What programming languages are you most familiar with?
+I'm very good at using PHP, which is popular programming languages. I'm also familiar with other languages like HTML, CSS, and PHP, which are used for creating websites and working with databases. 
+Can You Tell Me About a Project Where You Volunteered to Help or Offered Support?
+I have volunteered on a project called AMAZON ALEXA REVIEWS SENTIMENT ANALYSIS  , where I provided advice Amazon Alexa is a cloud-based voice service developed by Amazon that allows customers to interact with technology. There are currently over 40 million Alexa users around the world, so analyzing user sentiments about Alexa will be a good data science project. So, if you want to learn how to analyze the sentiments of users using Amazon Alexa, this article is for you. In this article, I’ll walk you through the task of Amazon Alexa Reviews Sentiment Analysis Using Python.
+What is your field of expertise and what would you like to learn more about?
+I know some programming languages like JavaScript, HTML, CSS, python and web development also. I want to learn them even better so that I can become a good developer in the future.
+What’s a New Software or Technology You Recently Worked With and How Did You Come to Learn It?
+Recently, I have learned a new technology called machine learning, where I learned to create a chatbot similar to virtual assistants. Our teachers helped us learn this.
+What Do You Do When It Looks Like a Project You Are Working on Might Miss a Deadline?
+When I am unable to complete my project work on time, I ask my teacher for more time so that I can complete the project. During the project, many errors occur which I ask my teacher for help to resolve.
+What’s the most effective way to gather user and system requirements?
+To understand user and system requirements, it's important to consult those who have knowledge about them. For user requirements, seek advice from people who are familiar with them. For system requirements, consult with experts who can provide information. Additionally, i can use Google to gather information about these requirements.
+What did you learn from your last project?
+From my last project, I learned how important teamwork and organization are. In our project, without teamwork, we couldn't complete our project on time and our process was disorganized. So, for the next project, I made sure that we work together and keep our process organized.
+What did you find most challenging about last assignment? What resources did you use to complete the assignment?
+In my last assignment, I faced several challenges such as installing packages and encountering errors while running the program. To resolve these issues, I used resources like Google Chrome, YouTube, and also sought help from my teacher.
+
+How can you debug a program while it’s being used? With explanation/reasons.
+Debugging a program while it's being used, often referred to as "live debugging" or "runtime debugging," is a valuable technique for diagnosing and resolving issues that only occur in production or during actual usage. Here are several methods and strategies for debugging a program while it's being used
+ What development tools have you used?
+i have used visual studio for developing my project, and for web development i have used  HTML,CSS, and javascript.
+

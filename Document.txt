@@ -1,0 +1,19 @@
+
+                                                   QUESTION
+
+1.What is the average flood probability across different regions?
+2What are the most common values for factors like "Monsoon Intensity," "Deforestation," and "Urbanization"?
+3.Is there a strong correlation between "Monsoon Intensity" and "Flood Probability"?
+4.How do different factors like "Urbanization" and "Deforestation" impact "Flood Probability"?
+5.What is the impact of "Climate Change" on "Flood Probability" compared to "Urbanization"?
+6.Can we predict "Flood Probability" based on the combination of factors like "Monsoon Intensity," "Siltation," and "Drainage Systems"?
+7.Which factors are the most significant predictors of flood probability?
+8.Does increased "Deforestation" lead to higher flood probability?
+9.How does improving "Dams Quality" affect flood probability over time?
+10.Are there any missing values in the dataset that need to be handled before analysis?
+11.How should the dataset be preprocessed (e.g., normalization, scaling) for better analysis?
+Are there any redundant features that could be removed to simplify the model?
+
+
+
+

@@ -1,0 +1,12 @@
+Q2- Create a Fruit sales chart (consisting of months and different fruits as data).
+ Minimum 10 data. Create a line chart,pie chart
+
+What's the most popular car manufacturer? (create a suitable chart )	 
+
+What's the least popular color for cars?	create a suitable chart) 
+
+
+
+
+
+What's the average price per owner?		

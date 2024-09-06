@@ -1,0 +1,10 @@
+
+          Laravel comand
+    
+1.composer require maatwebsite/excel
+
+2.php artisan vendor:publish --provider="Maatwebsite\Excel\ExcelServiceProvider"
+
+3.php artisan make:controller FromcontrollerName
+
+4.php artisan make:export FormDataExport

@@ -1,0 +1,61 @@
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+df = pd.read_csv('C:/Users/ibmuser/Downloads/output.csv') #read the csv file
+print(df)
+
+print(df.describe)
+
+print(df.head())#first five rows from the dataset
+
+print(df.shape)#number of rows and columns
+
+print(df.columns)#displays the column names from the dataset
+
+print(df.dtypes)#print the datatypes of each columns
+
+df.info()# to get more information about your data
+
+print(df.tail(n=10))# get the last row
+
+print(df.isnull())
+
+df.isnull().sum()
+
+df.isna().sum()
+
+#use .any() function to get concise info
+df.isna().any()
+
+#. isna()detects missing values
+df.isna()
+
+df.values# values atttributes returns a numpy representation of the given DataFrame
+
+df1 = pd.read_csv('output.csv', index_col=0, na_values=["??","????"])
+print(df1)
+
+ratings = df["rating"].value_counts()
+numbers = ratings.index
+quantity = ratings.values
+
+custom_colors = ["skyblue", "yellowgreen", 'tomato', "blue", "red"]
+plt.figure(figsize=(5, 5))
+plt.pie(quantity, labels=numbers, colors=custom_colors)
+central_circle = plt.Circle((0, 0), 0.5, color='white')
+fig = plt.gcf()
+fig.gca().add_artist(central_circle)
+plt.rc('font', size=12)
+plt.title("Amazon Alexa Reviews", fontsize=20)
+plt.show()
+
+import numpy as np
+ 
+print(np.var([1,9,5,6,8,7]))
+print(np.var([4,-11,-5,16,5,7,9]))
+
+Describe data according to variation
+df.groupby('variation').describe()
+
+

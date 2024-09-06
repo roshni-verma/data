@@ -1,0 +1,140 @@
+new file bnayege typescript[command- ng new typescript] ka nam se.
+cd typescript
+create a file classobject.ts then code are puted it.
+[classpbject.ts]
+class employee{
+      //variable declearation
+       empid:number;
+       empname:string;
+
+      //method or function
+      display():void{
+       console.log(Employee ID:"+this.empid); 
+      console.log(Employee Name:"+this.empname);
+}
+}
+
+//create an object or instance
+let emp1 = new employee();//emp1 is an object
+emp1.empid=1;
+emp1.empname="janvi";
+emp1.display();
+
+console.log(Employee ID:"+this.empid); 
+      console.log(Employee Name:"+this.empname);
+
+[run krane ka code]
+tsc classobject.ts[terminal me excute]
+node classobject.js
+
+
+[INHERITENSE FILE]CODE PUT
+
+class car{​​​​​​
+    Color:string;
+    Speed:number;
+    constructor(color:string,speed:number){​​​​​​
+        this.Color=color;
+        this.Speed=speed;
+    }​​​​​​
+}​​​​​​
+class bmw extends car{​​​​​​
+    Price:number;
+    constructor(Color:string,price:number,Speed:number){​​​​​​
+        super(Color,Speed);
+        this.Price=price
+    }​​​​​​
+    display():void{​​​​​​
+        console.log("Color of bmw: " + this.Color);
+        console.log("Price of bmw: " + this.Price);
+        console.log("Speed of bmw in km/hr : " + this.Speed)
+    }​​​​​​
+}​​​​​​
+
+class bmw1 extends bmw{​​​​​​
+    show():void{​​​​​​
+        console.log("The new model of bmw is bmwv1");
+    }​​​​​​
+    result(): void {​​​​​​
+        console.log("This is the result method in bmw1");
+    }​​​​​​
+}​​​​​​
+
+// let carobj = new bmw ("Black", 900000,120);
+// carobj.display()
+let cobj=new bmw1("White",950000,120);
+cobj.show();
+cobj.display();
+cobj.result();
+
+
+
+[run]
+
+tsc inheritense.ts[terminal me excute]
+node inheritense.js
+
+      
+
+[INTERFACE.TS]
+interface person{
+ name:string;
+age:number;
+gender:"male"; "female";
+}
+const p1:person={
+name:"john", age:25,gender:"male"
+}
+
+console.log (p1.name);
+console.log (p1.age);
+console.log (p1.gender);
+
+[run]
+
+tsc interface.ts[terminal me excute]
+node interface.js
+
+[inheritense file]
+class car{​​​​​​
+    Color:string;
+    Speed:number;
+    constructor(color:string,speed:number){​​​​​​
+        this.Color=color;
+        this.Speed=speed;
+    }​​​​​​
+}​​​​​​
+class bmw extends car{​​​​​​
+    Price:number;
+    constructor(Color:string,price:number,Speed:number){​​​​​​
+        super(Color,Speed);
+        this.Price=price
+    }​​​​​​
+    display():void{​​​​​​
+        console.log("Color of bmw: " + this.Color);
+        console.log("Price of bmw: " + this.Price);
+        console.log("Speed of bmw in km/hr : " + this.Speed)
+    }​​​​​​
+}​​​​​​
+
+class bmw1 extends bmw{​​​​​​
+    show():void{​​​​​​
+        console.log("The new model of bmw is bmwv1");
+    }​​​​​​
+    result(): void {​​​​​​
+        console.log("This is the result method in bmw1");
+    }​​​​​​
+}​​​​​​
+
+// let carobj = new bmw ("Black", 900000,120);
+// carobj.display()
+let cobj=new bmw1("White",950000,120);
+cobj.show();
+cobj.display();
+cobj.result();
+
+
+[inheritance.ts]
+
+
+

@@ -1,0 +1,24 @@
+
+ABSTRACT ELECTIVE MODULE 1
+
+Data analytics Dashboard -: This project focuses on utilizing IBM Cloud with Watson Studio to upload road AMAZON ALEXA REVIEWS SENTIMENT ANALYSIS into a Jupyter Notebook, subsequently 
+creating a comprehensive dashboard for analysis. Leveraging the powerful tools provided by Watson Studio, the aim is to facilitate efficient data processing, 
+visualization, and interpretation. Our goal is to check the Amazon Alexa Reviews Statement. As per my csv file I have to take the feedback ,verified reviews of people that is good or not. 
+so we started with jupyter notebook and gathered data, filtered it, then moved on to visualization, and eventually created a prediction model for this data set.
+
+"Webhosting-:If you're looking for information or assistance related to hosting a static file portfolio on IBM Cloud, 
+ A static file portfolio typically consists of HTML, CSS, and possibly JavaScript files 
+that showcase your work or projects.
+
+ChatBot-:This project aims to enhance the user experience on our Himalayan Hills website by integrating a chatbot powered by 
+IBM Watson Assistant through Watson Studio on IBM Cloud. The chatbot serves as an intelligent virtual assistant, providing instant and personalized responses
+ to user queries related to the Himalayan Hills and associated services. Leveraging IBM Cloud's Watson Studio, we deploy a robust and customizable solution
+ that incorporates natural language processing (NLP) capabilities, allowing seamless communication between users and the chatbot
+
+Data analytics Dashboard -: This project focuses on utilizing IBM Cloud with Watson Studio to upload road AMAZON ALEXA REVIEWS SENTIMENT ANALYSIS into a Jupyter Notebook, subsequently 
+creating a comprehensive dashboard for analysis. Leveraging the powerful tools provided by Watson Studio, the aim is to facilitate efficient data processing, 
+visualization, and interpretation. Our goal is to check the Amazon Alexa Reviews Statement. As per my csv file I have to take the feedback ,verified reviews of people that is good or not. 
+so we started with jupyter notebook and gathered data, filtered it, then moved on to visualization, and eventually created a prediction model for this data set.
+
+
+AMAZON ALEXA REVIEWS SENTIMENT ANALYSIS  

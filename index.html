@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Mock Google Search Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header img {
+            margin-top: 20px;
+            width: 150px;
+            height: auto;
+        }
+        .search-bar {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .search-results {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .search-result {
+            margin-bottom: 20px;
+        }
+        .search-result h2 {
+            margin-bottom: 5px;
+        }
+        .search-result p {
+            color: blue;
+            margin-bottom: 10px;
+        }
+        .search-result a {
+            color:green;
+            text-decoration: none;
+        }
+        .search-result a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="image.jpg" alt="Google Logo">
+        </header>
+        <form action="https://www.google.com/search" method="GET" class="search-bar">
+            <input type="text" name="q" placeholder="Search Google">
+            <button type="submit">Search</button>
+        </form>
+        <ul class="search-results">
+            <li class="search-result">
+                <h2><a href="https://www.w3schools.com">W3Schools Website</a></h2>
+                <p>this is best platform to learn.</p>
+            </li>
+            
+        </ul>
+    </div>
+</body>
+</html>
