@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Number Of days</title>
+    </head>
+        <body>
+            
+            <h2 id="demo"></h2><br><br>
+            <script>
+                var dates1, dates2;
+                date1=new Date("12/1/2020");
+                date2=new Date("2/1/2023");
+                //calculate the time difference 
+                var tdiff= date2.getTime()-date1.getTime();
+                document.write(tdiff+"<br>");
+                 //calculate the days difference in total miliseconds in a day 
+                 var ddiff=tdiff/(1000*60*60*24);
+                 
+                
+            
+                document.getElementById("demo").innerHTML="Number of days between two dates:" + ddiff;
+            </script>
+        </body>
+    
+</html>

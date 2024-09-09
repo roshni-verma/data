@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>window.set TIMEOUT()</title>
+    </head>
+    <body> 
+        <h1> Today we are learning about BOM methods & properties.</h1>
+        <input type ="button" value = "confirm" onclick="stop()">
+        <script>
+            var x=setTimeout(fun1,3000);
+            function fun1(){
+                var x=window.open("","","width=500;height=500");
+                x.document.("<h2> set timeout methods </h2>");
+                set timeout(function(){
+                    x.close()},2000)}
+                function step(){
+                    clear timeout (x);
+                }
+            
+            </script>
+            </body>
+</html>

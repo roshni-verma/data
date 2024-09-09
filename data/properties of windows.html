@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>properties of window()</title>
+    </head>
+    <body> 
+        <h1> number of iframe in the window</h1>
+        <p id="demo"></p>
+        <iframe style."width:200px; height=200px"></iframe>
+        <iframe style."width:200px; height=200px"></iframe>
+        <iframe style."width:200px; height=200px"></iframe>
+       <p id="demo1"> </p>
+     
+        <script>
+            let len=window.length;
+
+            
+              document.getElementById("demo").innerHTML =len;
+              let loc = window.location.origin;
+              document.getElementById("demo1").innerHTML =loc;
+            let d=screen.color Depth;
+            document.getElementById("demo2").innerHTML =d innerHTML=d+"bits for pixel";
+            </script>
+            </body>
+</html>

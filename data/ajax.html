@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Ajax Example</title>
+    </head>
+    <body>
+        <div id="demo">
+            <h1>Ajax Example using get method</h1>
+            <button type="button" onclick="text_loading()">change text</button>
+        </div>
+        <script>
+            function text_loading(){
+                //create a object
+                const request=new XMLHttpRequest();
+                request.onload=function(){
+                    document.getElementById("demo").innerHTML=this.responseText;
+
+                }
+                request.open("GET","info.txt");
+                request.send();
+            }
+        </script>
+    </body>
+
+</html>

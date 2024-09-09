@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Current Week Number</title>
+    </head>
+        <body>
+            <h3> current date and time:</h3>
+            <p id="demo"></p><br><br>
+            <script>
+                var today=new Date();//2nd feb 2023
+                //find the year from the current date 
+                var nyear=new Date(today.getFullYear(),0,1);
+                //calculating the number of days in the given year
+                var ndays=Math.floor((today-nyear)/(1000*60*60*24));
+                //we are adding 1 to the current date and it will return value starting from 0 
+                var nweek =Math.ceil((today.getDay()+1+ndays)/7);
+            
+                document.getElementById("demo").innerHTML="current week number="+nweek;
+            </script>
+        </body>
+    
+</html>

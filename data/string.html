@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <title> Reverse the case of the string </title>
+</head>
+<body>
+    <script>
+        function swapCase(str)
+        {
+            let letters=str.split(' ');
+            let arr1=[];
+            for (let letter of letters)
+            {
+                if (letter===letter.toUpperCase())
+                {
+                    arr1.push(letter.toLowerCase());
+
+                }
+                else {arr1.push(letter.toUpperCase());
+                }
+                
+            }
+            return arr1.join(' ');
+        }
+        let output =swapCase(prompt("enter a string"));
+        document.write(output);
+        </script>
+
+</body>
+</html>

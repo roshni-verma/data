@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Program 1</title>
+</head>
+<body>
+ <input type="number" id="input_number" placeholder="Enter the number">
+ <input type="button" value="Find" id="input_button" >
+ <script>
+ 
+
+ 
+ //with build in function
+ function findReverse(){
+ let number = Number(document.getElementById("input_number").value);
+ 
+ let reverse = Number(String(number).split('').reverse().join(''));
+ 
+ alert("Reverse : "+reverse);
+ }
+ 
+ 
+ let button=document.getElementById("input_button");
+ button.onclick=findReverse;
+ //without build in funtion 
+ let rev = 0;
+let num = 123456;
+let lastDigit;
+while(num != 0){
+ 
+
+ lastDigit = num % 10;
+ rev = rev * 10 + lastDigit;
+ num = Math.floor(num/10);
+}
+console.log("Reverse number : "+rev);
+ </script>
+</body>
+</html
